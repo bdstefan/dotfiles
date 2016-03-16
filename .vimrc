@@ -9,6 +9,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/nerdtree'
 
 filetype plugin indent on
 
@@ -29,3 +30,5 @@ set termencoding=utf-8
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+map <C-n> :NERDTreeToggle<CR>
